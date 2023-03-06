@@ -1,0 +1,46 @@
+@keyframes saltar {
+    0%, 20%, 60%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    80% {
+        transform: translateY(-10px);
+    }
+}
+
+.rounded-pill:hover {
+    animation: saltar 1s;
+}
+
+#colores {
+    display: none;
+}
+
+.animacion-azul {
+    animation: azul 2s;
+}
+
+.animacion-amarillo {
+    animation: amarillo 2s;
+}
+
+.animacion-rojo {
+    animation: rojo 2s;
+}
+
+@keyframes azul {
+    from {background-color: blue}
+    to {background-color: white}
+}
+
+@keyframes amarillo {
+    from {background-color: yellow}
+    to {background-color: white}
+}
+
+@keyframes rojo {
+    from {background-color: red}
+    to {background-color: white}
+}
